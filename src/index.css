@@ -1,0 +1,62 @@
+@import "mafs/core.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body {
+    background-color: #0f0f0f;
+    color: white;
+  }
+
+.App {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.col {
+    padding: 0;
+    margin: 0;
+}
+
+.display {
+    border: 2px solid grey;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.inputPoint {
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.inputPoint button {
+    width: 100px;
+}
+
+.pointsList {
+    display: flex;
+    justify-content: center;
+}
+
+.form input{
+    width: 25px;
+}
+
